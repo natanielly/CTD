@@ -1,0 +1,34 @@
+/*Esse é um trecho que estiliza vários elementos ao mesmo tempo */
+
+body {
+
+    background-color:rgb(223, 215, 185);
+    color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+
+    color: mediumvioletred;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+
+
+}
+
+#job-title {
+
+    color:navy;
+    font-size: 20px;
+    font-weight: bold
+    padding: 5px 10px 5px 10px
+    
+}
+
+#ul {
+
+    padding: 10px; 
+
+}
