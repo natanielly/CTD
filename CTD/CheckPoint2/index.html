@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint II</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Belo Horizonte - MG</h1>
+    </header>
+    <img src="https://s3.amazonaws.com/bk-static-prd-newctn/files/styles/full_image_block_experience_960x539/s3/2019-04/Brasil-MinasGerais-BeloHorizonte-abre_1.jpg?itok=nl9cSt29">
+    <main>
+        <h2>Sobre Belo Horizonte</h2>
+        <p>Belo Horizonte é a capital do estado de Minas Gerais, no sudeste do Brasil. Rodeada de montanhas, a cidade é conhecida pelo enorme Estádio Mineirão. Construído em 1965, o estádio alberga também o Museu Brasileiro do Futebol. Nas proximidades encontra-se a Lagoa da Pampulha e o Conjunto Arquitetónico da Pampulha, que inclui a Igreja de São Francisco de Assis, cujo teto é ondulado e que foi concebida pelo arquiteto modernista brasileiro Oscar Niemeyer
+
+        </main>
+
+    <form>
+        <h2>Formulário de Cadastro</h2>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <div>
+                <label for="fullName">Nome Completo</label>
+                <input class="big-input" required placeholder="" type="text" maxlength="100" name="fullName" id="fullName">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input class="big-input" type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="tel">Telefone</label>
+                <input class="small-input" required type="tel" name="tel" id="tel">
+            </div>
+            <div>
+                <label for="birthDate">Data de Nascimento</label>
+                <input type="date" name="birthDate" id="birthDate">
+            </div>
+            <div>
+                <input type="radio" name="idade" id="maiorDeIdade">
+                <label for="maiorDeIdade">Tem mais de 18 anos</label>
+                <input type="radio" name="idade" id="menorDeIdade">
+                <label for="menorDeIdade">Tem menos de 18 anos</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Interesses</legend>
+            <div>
+                <label for="interesses">O que você gostaria de conhecer em Belo Horizonte</label>
+                <select name="interesses" id="interesses">
+                    <option value="">-</option>
+                    <option value="1">Pampulha</option>
+                    <option value="2">Mineirão</option>
+                    <option value="3">Savassi</option>
+                    <option value="4">Mercado Central</option>
+                    <option value="4">Trilhas e Cachoeiras</option>
+                    <option value="4">Praça da Liberdade</option>
+                </select>                
+            </div>
+            <div>
+                <h3>Selecione qual(is) o(s) seu(s) interesse(s) na cidade:</h3>
+                <div>
+                    <input type="checkbox" name="interesse" value="Brigadeiros">
+                    <label for="interesse">Turismo</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="interesse">
+                    <label for="interesse">Residência</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="interesse">
+                    <label  for="interesse">Estudos</label>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <p>Agradeçemos pelo seu contato!</p>
+        
+        <button class="clean-form" type="reset">Limpar formulário</button>
+        
+        <button class="send-form" type="submit">Enviar Cadastro</button>
+
+
+
+    </form>
+
+
+
+            
+
+    
+</body>
+</html>

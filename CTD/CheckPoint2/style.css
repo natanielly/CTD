@@ -1,0 +1,132 @@
+
+body {
+    background-color: #faece2;
+}
+img{
+    width: 1280px;
+    margin: 10px 20px;
+}
+header {
+    background-color: #506D84;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #F3D5C0
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin: 20px 20px 0 20px;
+    color: #889EAF;
+}
+
+p {
+    margin: 10px 20px;;
+    font-family: 'Roboto', sans-serif;
+    color: #2b4052;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+iframe {
+    margin: 10px 20px;
+}
+
+ul li {
+    margin: 10px 20px;;
+    font-family: 'Roboto', sans-serif;
+    color: #2b4052;
+}
+
+.fa {
+    color:#2b4052;
+    padding: 20px;
+}
+
+form {
+    margin: 10px 20px;;
+    font-family: 'Roboto', sans-serif;
+    color: #2b4052;
+    margin: auto;
+    height: auto;
+    width: 800px;
+}
+
+form div {
+    padding: 8px
+}
+
+form input {
+    border-radius: 8px;
+    padding: 16x;
+    height: 20px;
+    color: gray;
+}
+
+form select {
+    border-radius: 8px;
+    padding: 16x;
+    height: 20px;
+    color: gray;
+}
+
+.big-input {
+    width: 300px;
+}
+.small-input {
+    width: 120px;
+    text-align: center;
+}
+
+form h3 {
+    font-size: 16px;
+}
+
+form p {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clean-form {
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 6px;
+    display: block;
+    background-color: rgb(240, 97, 97);
+}
+
+.clean-form:hover {
+    background-color: red;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: inset 0 0 1em rgb(141, 51, 9), 0 0 1em #682717;
+    transform: skew(10deg);
+}
+
+.send-form {
+    border-radius: 20px;
+    margin: 15px auto;
+    padding: 12px;
+    width: 150px;
+    display: block;
+    font-size: 16px;
+    background-color: rgb(30, 182, 30);
+}
+
+.send-form:hover {
+    border-radius: 40px;
+    background-color:rgb(8, 189, 8);
+    font-weight: bold;
+    box-shadow: inset 0 0 1em rgb(13, 126, 22), 0 0 1em #16351b;
+    transform: scale(1.5);    
+}
